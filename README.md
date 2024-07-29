@@ -65,3 +65,10 @@ Those steps will add these items:
 * const logger = require('morgan');
 * app.use(bodyParser.json()) 
 * app.use(logger('dev'))
+
+* ## Deploy React
+* 1. ## To Deploy a React project on Surge:
+1. be in the folder that has index.html as a listed file
+1. npm run build //this will add folder 'dist' 
+1. surge ./dist
+1. choose domain name < NAME >.surge.sh
